@@ -1,0 +1,18 @@
+.titulos3 {
+    
+    background-image: linear-gradient(0deg,rgb(233, 220, 220),#a069c0);
+    margin: 1em 0.5em;
+    padding: 0.2em 0.6em;
+    border: solid 0.2em #da571a; 
+    border-radius: 0.7em;
+    text-align: center;
+    &:hover h4 {
+        font-size: xx-large;
+    }
+    &:hover p {
+        font-size: xx-large;
+    }
+
+
+    
+} 

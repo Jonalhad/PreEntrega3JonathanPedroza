@@ -1,0 +1,49 @@
+.contImag2 {
+    img {
+        width: 200px;
+        transition: 1s;
+        padding: 20px;
+    }
+
+                           
+}
+
+.contImag2 img:nth-child(1):hover {
+    transform: translate(0px,10px);
+    
+}
+
+.contImag2 img:nth-child(2):hover {
+    transform: rotate(360deg);
+    
+}
+
+.contImag2 img:nth-child(3):hover {
+    transform: rotatex(360deg);
+    
+}
+
+.contImag2 img:nth-child(4):hover {
+    transform: rotateY(360deg);
+    
+}
+
+.contImag2 img:nth-child(5):hover {
+    transform: scale(3) ;
+    
+}
+
+.contImag2 img:nth-child(6):hover {
+    transform: scale(3) ;
+    
+}
+
+.contImag2 img:nth-child(7):hover {
+    transform: scale(3) ;
+    
+}
+
+.contImag2 img:nth-child(8):hover {
+    transform: rotateY(360deg) ;
+    
+}

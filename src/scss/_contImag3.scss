@@ -1,0 +1,12 @@
+.contImag3 {
+        img {
+    width: 200px;
+    transition: 1s;
+    padding: 20px;
+    &:hover {
+        transform: scale(3);
+    }
+
+    
+    }  
+}

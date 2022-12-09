@@ -1,0 +1,21 @@
+.footer1{
+    display: flex;
+    justify-content:space-between ;
+    margin: 40px;
+
+    p {
+        color: #da571a;
+
+    }
+
+    &:hover  p {
+        
+        font-size: large;
+    }
+
+
+}
+
+
+
+

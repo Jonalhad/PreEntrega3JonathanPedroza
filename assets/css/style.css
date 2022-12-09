@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.titulos1 {
+  background-color: rgb(75, 71, 78);
+  margin: 1em 0.5em;
+  padding: 0.2em 0.6em;
+  border: solid 0.2em #da571a;
+  border-radius: 0.7em;
+  text-align: center;
+}
+.titulos1 p {
+  color: rgb(254, 254, 255);
+}
+.titulos1:hover p {
+  font-size: large;
+}
+
+.banner {
+  width: 100%;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.footer1 p {
+  color: #da571a;
+}
+.footer1:hover p {
+  font-size: large;
+}
+
+.boldnav:hover {
+  font-size: x-large;
+}
+
+.contImag3 img {
+  width: 200px;
+  transition: 1s;
+  padding: 20px;
+}
+.contImag3 img:hover {
+  transform: scale(3);
+}
+
+.contImag2 img {
+  width: 200px;
+  transition: 1s;
+  padding: 20px;
+}
+
+.contImag2 img:nth-child(1):hover {
+  transform: translate(0px, 10px);
+}
+
+.contImag2 img:nth-child(2):hover {
+  transform: rotate(360deg);
+}
+
+.contImag2 img:nth-child(3):hover {
+  transform: rotatex(360deg);
+}
+
+.contImag2 img:nth-child(4):hover {
+  transform: rotateY(360deg);
+}
+
+.contImag2 img:nth-child(5):hover {
+  transform: scale(3);
+}
+
+.contImag2 img:nth-child(6):hover {
+  transform: scale(3);
+}
+
+.contImag2 img:nth-child(7):hover {
+  transform: scale(3);
+}
+
+.contImag2 img:nth-child(8):hover {
+  transform: rotateY(360deg);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputForm {
+  width: 50%;
+  height: 30px;
+  margin: 15px auto;
+  border-color: blueviolet;
+  background-color: rgb(194, 170, 216);
+}
+
+.btn1 {
+  width: 10%;
+  margin: 15px auto;
+  height: 30px;
+  background-color: blueviolet;
+  color: aliceblue;
+}
+
+.btnRedondo {
+  border-radius: 15%;
+}
+
+.entradaCorreo {
+  text-align: center;
+}
+
+.formularioboostrap {
+  width: 600px;
+  margin: auto;
+}
+
+.titulos3 {
+  background-image: linear-gradient(0deg, rgb(233, 220, 220), #a069c0);
+  margin: 1em 0.5em;
+  padding: 0.2em 0.6em;
+  border: solid 0.2em #da571a;
+  border-radius: 0.7em;
+  text-align: center;
+}
+.titulos3:hover h4 {
+  font-size: xx-large;
+}
+.titulos3:hover p {
+  font-size: xx-large;
+}
+
+.textoContacto {
+  font-size: 1.5em;
+  text-align: center;
+}
