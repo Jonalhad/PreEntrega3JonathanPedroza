@@ -1,0 +1,19 @@
+.videoYoutube {
+    border: 3px solid white;
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.videoYoutube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+}
+
+.youtubeWrapper {
+    width: 50%;
+    margin: auto;
+}
